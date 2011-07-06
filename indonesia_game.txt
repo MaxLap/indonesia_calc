@@ -1,0 +1,23 @@
+# Spaces are always removed from the line.
+# Use letters, numbers, dashes and underscores for identifiers
+
+[FARM]
+# Owner|whole_farm_name|node_name$production:nodes|...
+Maxime|Max_Farm|Left_Beans$6:7,9|Bottom_Beans$3:20,21
+
+
+[BOAT]
+# Owner|network_name$capacity:oceans_with_boat
+
+Greg|A$3: 7,8,10,11,20
+Yan|B$3: 6,7,8,9,10
+
+
+[CITY]
+# City:nodes
+MidLeft$2: 6
+BotMid$2: 10
+MidMid$3: 11
+
+[SHIPMENT]
+Max_Farm
