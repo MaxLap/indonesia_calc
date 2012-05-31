@@ -1,12 +1,12 @@
 Basic ruby implementation of a calculator to simplify the operation phase in the
 indonesia game by calculating an optimal shipment for a situation.
 
-To run, open ruby's irb, load the file indonesia_calc.irb, then run the following
+To run, open ruby's irb, load the file indonesia_calc.rb, then run the following
 two lines.
 
     game = Game.new
     game.execute_file_shipment
 
-The application will read the game state from the indonesia_map.txt file and the
-indonesia_game.txt file and output a path of boats that could be used to ship
-products in an optimal way.
+The application will read the game map from the indonesia_map.txt file and the
+game state from the indonesia_game.txt file and output a path of boats that
+could be used to ship products in an optimal way.
